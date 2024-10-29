@@ -80,7 +80,7 @@ test:
 #
 production:
   <<: *default
-  database: jeff_app_production
+  database: jeff_production
   username: cjeon
   password: thisisaverysecurepassword
   host: jeff-db
