@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   if Rails.env.production?
-    constraints(host: /^refactoring\.com$/) do
+    constraints(host: /^refactoringcv\.com$/) do
       match "/(*path)", to: redirect(subdomain: "www"), via: :all
     end
   end
